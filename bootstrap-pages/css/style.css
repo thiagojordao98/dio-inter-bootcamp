@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #4872a5;
+}
+
+.quem-somos {
+  background-color: #333;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#time {
+  border-radius: 50%;
+}
