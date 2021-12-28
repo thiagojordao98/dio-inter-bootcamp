@@ -1,13 +1,17 @@
-function c(){
-  var a = 1;
-  var b = 5; 
-  var t = "";
-while(a<b && b>a){
-  t = t + a + b;
-  a++;
-  b--;
-}
-console.log(t);
+let count = 0;
+
+const CURRENT_NUMBER = document.getElementById('currentNumber');
+
+function increment() {
+	count++;
+	CURRENT_NUMBER.innerHTML = count;
 }
 
-c();
+function decrement() {
+	count--;
+	CURRENT_NUMBER.innerHTML = count;
+}
+
+function test() {
+	kdowkdpo;
+}
