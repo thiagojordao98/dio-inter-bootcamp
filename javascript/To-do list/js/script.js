@@ -1,7 +1,7 @@
-var itemLista = document.getElementById("ul");
+var itemLista = document.getElementById("checkbox");
 function addTarefa() {
     if (document.getElementById("itemLista").value !== "") {
-        var tarefa = document.createElement("li");
+        var tarefa = document.createElement("checkbox");
         tarefa.innerHTML = document.getElementById("itemLista").value;
         
         var remover = document.createElement("a");
