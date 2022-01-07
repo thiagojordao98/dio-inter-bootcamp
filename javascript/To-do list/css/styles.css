@@ -4,3 +4,8 @@ a {
 body {
   background-color: #3333;
 }
+button,
+input {
+  border: 2px solid #333;
+  border-radius: 5px;
+}
